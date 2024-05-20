@@ -1,0 +1,13 @@
+<section>
+ 
+  <div style="border: 3px; border-color: black; display: inline-flex; flex-direction: column;">
+    <span>Resultado {{ resultado }} </span>
+    <div style="display: inline-flex; flex-direction: column;">
+        <div style="display: flex; flex-direction: row; gap: 5px; margin-bottom: 5px; margin-top: 5px;">
+            <button type="button" style="width: max-width; flex: auto; background-color: aqua;" (click)="sumarClick()">+</button>
+            <button type="button" style="width: max-width; flex: auto;background-color: aqua;" (click)="restarClick()">-</button> 
+        </div>
+        <button type="button" style="background-color: aqua;" (click)="resetClick()">Reset</button> 
+    </div>
+  </div>
+</section>

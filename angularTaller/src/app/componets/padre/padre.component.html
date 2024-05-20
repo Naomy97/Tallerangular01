@@ -1,0 +1,18 @@
+<section>
+  <div
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    "
+  >
+    <div
+      style="border-color: blueviolet; border-width: 3px; border-style: solid; padding: 10px; "
+    >
+      <span>El doble es: {{ resultadoDoble }} </span>
+      <br />
+      <app-hijo (resultadoHijo)="resultadoD($event)"></app-hijo>
+    </div>
+  </div>
+</section>
